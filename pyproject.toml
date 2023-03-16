@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "vault-facade"
+version = "0.1.0"
+description = ""
+authors = ["StepanGavrilov <gavrilovstepan78@gmail.com>"]
+readme = "README.md"
+packages = [{include = "vault_facade"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+hvac = "^1.1.0"
+pyyml = "^0.0.2"
+pydantic = "^1.10.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,15 @@
+---
+infrastructure:
+  dev:
+    postgres:
+      host: 127.0.0.1
+      port: '6666'
+      user: test
+      password: '123'
+      db_name: 'great_database'
+  prod:
+    postgres:
+      host: 127.0.0.1
+      port: '8888'
+      user: admin
+      password: admin
