@@ -107,7 +107,7 @@ policies             ["root"]
 
 - login default (127.0.0.1:8000 default) with token: master
 
-![Untitled](Vault%20aceee2ca0bf3474385ad40f60d17dbfa/Untitled.png)
+![Untitled](docs/Untitled.png)
 
 - get all secrets in vault
 
@@ -283,4 +283,4 @@ vault write auth/userpass/users/dev_postgre password=admin polices=kv-dev-postgr
 
 ### Mount point
 
-![Untitled](Vault%20aceee2ca0bf3474385ad40f60d17dbfa/Untitled%201.png)
+![Untitled](docs/Untitled%201.png)
